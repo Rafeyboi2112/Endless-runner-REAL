@@ -10,12 +10,16 @@ public class PlayerMovement : MonoBehaviour
     public float checkRadius = 0.2f;       //Radius of the overlap circle for ground detection
     public LayerMask groundLayer;          //Layer of the ground objects
 
+    public AudioClip jump;
+    AudioSource playerSFX;
+
     private Rigidbody2D rb;                //Reference to RigidBody component
     private bool isGrounded;               //Ground checker
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>(); //Get rigidbody attached to player
+        playerSFX = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -36,6 +40,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
+        playerSFX.PlayOneShot(jump);
         //Add an upward force for jumping
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
     }
@@ -46,4 +51,5 @@ public class PlayerMovement : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(groundCheckPoint.position, checkRadius);
     }
+
 }
