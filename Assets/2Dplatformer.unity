@@ -1317,21 +1317,57 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: fee532c00bed79844b1854ee130563a4, type: 2}
+    - target: {fileID: 471448680789519526, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
+      propertyPath: m_Size.x
+      value: 0.20186517
+      objectReference: {fileID: 0}
+    - target: {fileID: 471448680789519526, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5971971
+      objectReference: {fileID: 0}
+    - target: {fileID: 471448680789519526, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.0008134879
+      objectReference: {fileID: 0}
+    - target: {fileID: 471448680789519526, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.00783506
+      objectReference: {fileID: 0}
+    - target: {fileID: 471448680789519526, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 471448680789519526, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.62
+      objectReference: {fileID: 0}
     - target: {fileID: 4967200403514531733, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5231247289159287416, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.1959271
+      objectReference: {fileID: 0}
+    - target: {fileID: 5231247289159287416, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.1959271
+      objectReference: {fileID: 0}
+    - target: {fileID: 5231247289159287416, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.2316129
+      objectReference: {fileID: 0}
+    - target: {fileID: 5231247289159287416, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.64
+      value: -10.2348
       objectReference: {fileID: 0}
     - target: {fileID: 5231247289159287416, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.7
+      value: 2.0018
       objectReference: {fileID: 0}
     - target: {fileID: 5231247289159287416, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5231247289159287416, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1361,6 +1397,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5661203727010650427, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1917362285, guid: ec42db4c0bcd6a64eb3eac275f047bb9, type: 3}
+    - target: {fileID: 5661203727010650427, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5661203727010650427, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5661203727010650427, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5661203727010650427, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5661203727010650427, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6440697327589580686, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
       propertyPath: jump
       value: 
@@ -1371,7 +1431,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6440697327589580686, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
       propertyPath: checkRadius
-      value: 0.6
+      value: 1.07
       objectReference: {fileID: 0}
     - target: {fileID: 6440697327589580686, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
       propertyPath: musicPlayer

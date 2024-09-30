@@ -16,15 +16,20 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;                //Reference to RigidBody component
     private bool isGrounded;               //Ground checker
 
+    Animator anim;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>(); //Get rigidbody attached to player
         playerSFX = GetComponent<AudioSource>();
+
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        anim.SetBool("IsOnGround", isGrounded);
         //Constant forward movement
         rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
 
@@ -36,6 +41,8 @@ public class PlayerMovement : MonoBehaviour
         {
             Jump();
         }
+
+        
     }
 
     private void Jump()
