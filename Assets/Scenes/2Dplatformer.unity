@@ -1338,6 +1338,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: fee532c00bed79844b1854ee130563a4, type: 2}
+    - target: {fileID: 457516954645326708, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
+      propertyPath: m_GravityScale
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 471448680789519526, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
       propertyPath: m_Size.x
       value: 0.20186517
@@ -1445,6 +1449,10 @@ PrefabInstance:
     - target: {fileID: 6440697327589580686, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
       propertyPath: jump
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6440697327589580686, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
+      propertyPath: jumpForce
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 6440697327589580686, guid: 4ffab376a39fe324c875c9eab2b593dc, type: 3}
       propertyPath: sfxPlayer
