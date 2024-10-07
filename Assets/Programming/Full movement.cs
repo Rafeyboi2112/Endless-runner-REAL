@@ -16,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;                //Reference to RigidBody component
     private bool isGrounded;               //Ground checker
 
+    public RAMManager rm;
+
     Animator anim;
 
     void Start()
@@ -59,4 +61,11 @@ public class PlayerMovement : MonoBehaviour
         Gizmos.DrawWireSphere(groundCheckPoint.position, checkRadius);
     }
 
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Ram"))
+        {
+            rm.coinCount++;
+        }
+    }
 }
