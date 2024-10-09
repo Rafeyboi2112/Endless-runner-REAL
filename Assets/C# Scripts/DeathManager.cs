@@ -25,4 +25,9 @@ public class DeathManager : MonoBehaviour
         Time.timeScale = 1f;
         Application.Quit();
     }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadSceneAsync(0);
+    }
 }
